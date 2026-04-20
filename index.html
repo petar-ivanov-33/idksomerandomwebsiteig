@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
-	<style>
-    body {
-        background-color: black;
-        color: white;
+    <style>
+        header{
         font-family: Arial;
-    }
-</style>
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web thingy</title>
 </head>
-<body>
-    <h1>Hello, world!</h1>
-    <p>This is my first website.</p>
-	<a href="https://www.chess.com">Play Chess</a>
+<body>  
+    <header>
+        <h1>Hello!</h1>
+        <p>Idfk wtf I am doing!</p>
+        <button onclick="buttonPressed()">Press me!</button>
 
-<button onclick="window.location.href='https://www.chess.com'">
-    Play Chess
-</button>
+        <script>
+            function buttonPressed(){
+                alert("HAHA! GOOD BOY!!!");
+            }
+        </script>
+    </header>
+    
 </body>
-
 </html>
